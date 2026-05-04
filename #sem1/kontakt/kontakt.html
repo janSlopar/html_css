@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>F1 - Contacts</title>
+
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="stylesheet" href="../fontovi.css">
+    <link rel="stylesheet" href="../kontakt-style.css">
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="images/formula-1-logo-4-1.png" alt="F1">
+        <a href="../naslovnica.html"><i class="fa-solid fa-house"></i>Home Page</a>
+        <a href="../o_nama.html">About us</a>
+        <a href="kontakt.html"><i class="fa-solid fa-phone"></i>Contacts</a>
+        <a href="../novosti.html">News</a>
+        <a href="../trgovina.html"><i class="fa-solid fa-shop"></i>Shop</a>
+        <h1>Formula 1 - Contacts</h1>
+    </header>
+
+    <section>
+        <div id="tickets">
+            <!--! Obrazac za rezervaciju-->
+
+            <h2 id="rezervacija-naslov">Reserve a Ticket!</h2>
+            <form id="rezervacija" method="get" action="kontakt.html">
+                <input placeholder="Name" type="text" name="ime" required> <br>
+                <input placeholder="Email" type="email" name="email" required> <br>
+                <input placeholder="Phone number" type="number" name="number" required> <br>
+            
+                <h2>Choose seat type</h2>
+                <label>
+                    <input type="radio" name="seat" value="Start / Finish"> Start / Finish
+                </label> <br>
+                <label>
+                    <input type="radio" name="seat" value="Paddock club"> Paddock club
+                </label> <br>
+                <label>
+                    <input type="radio" name="seat" value="Turn 1"> Turn 1
+                </label> <br>
+                <label>
+                    <input type="radio" name="seat" value="Turn 18"> Turn 18
+                </label>
+            
+                <h2>Select Event</h2>
+                <select required name="event">
+                    <option disabled selected>Select an event</option>
+                    <option>Bahrain Grand Prix</option>
+                    <option>Saudi Arabian Grand Prix</option>
+                    <option>Australian Grand Prix</option>
+                    <option>Chinese Grand Prix</option>
+                    <option>Azerbaijan Grand Prix</option>
+                    <option>Miami Grand Prix</option>
+                    <option>Emilia Romagna Grand Prix</option>
+                    <option>Monaco Grand Prix</option>
+                    <option>Spanish Grand Prix</option>
+                    <option>Canadian Grand Prix</option>
+                    <option>Austrian Grand Prix</option>
+                    <option>British Grand Prix</option>
+                    <option>Hungarian Grand Prix</option>
+                    <option>Belgian Grand Prix</option>
+                    <option>Dutch Grand Prix</option>
+                    <option>Italian Grand Prix</option>
+                    <option>Singapore Grand Prix</option>
+                    <option>United States Grand Prix</option>
+                    <option>Mexican Grand Prix</option>
+                    <option>Brazilian Grand Prix</option>
+                    <option>Las Vegas Grand Prix</option>
+                    <option>Qatar Grand Prix</option>
+                    <option>Abu Dhabi Grand Prix</option>
+                </select>
+            
+                <h2>Your Message</h2>
+                <textarea placeholder="Your message" name="message" required></textarea> <br>
+            
+                <button type="submit">Submit</button>
+            </form>            
+        </div>
+
+        <div id="contacts">
+            <h2>TV Customer Service</h2>
+            <p>Support for TV services can be found <a href="#">here</a>.</p>
+
+            <h2>The Store</h2>
+            <p>This is operated under licence by Fanatics (International) Ltd.</p>
+            <p>For customer service enquiries:</p>
+            <p>For the UK, call 0123 456 7891, or +44 012 345 6780 from outside the UK.</p>
+            <p>To place an order by phone:</p>
+            <p>For the UK, call 0123 456 7890, or +44 012 345 6789 from outside the UK.</p>
+
+            <h2>Experiences</h2>
+            <p>Experiences are operated by QuintEvents, LLC.</p>
+            <p>For customer service or booking enquiries call +1 234 654 4321.</p>
+
+            <h2>General</h2>
+            <p>Due to the high volume of traffic we receive, we regret that we are unable to respond to emails which are not specifically related to the categories below. This includes enquiries regarding recruitment or charitable activities.</p>
+            <p>For general enquiries, please email <a href="mailto:jslopar@tvz.hr">jslopar@tvz.hr</a>.</p>
+            <p>Please note, details regarding reproduction of content can be found in our <a href="#">Terms and Conditions</a>.</p>
+        
+        </div>
+
+        <div class="striped-div"></div>
+
+    </section>
+
+    <section>
+
+        <iframe src="https://www.google.com/maps/d/embed?mid=1TYZus2MjA8bVYEiOhnwH3l5G3dA4HoD-&ehbc=2E312F" width="90%" height="750"></iframe> 
+    </section>
+
+    <footer>
+        <h3>Jan Šlopar 0246123378</h3>
+    </footer>
+    
+</body>
+</html>

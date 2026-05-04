@@ -1,0 +1,138 @@
+body{
+
+    color: white;
+}
+
+footer{
+
+    padding: 1% 0px;
+}
+
+#general{
+
+    width: 50%;
+    border-top: 10px solid #FF1801;
+    border-right: 10px solid #FF1801;    
+    margin: 20px 20px 0 0;
+    border-top-right-radius: 40px;
+    float: left;
+
+}
+
+#general p{
+
+    padding-right: 20px;
+}
+
+#general-title{
+
+    font-family: Formula1-bold;
+    color: white;
+}
+
+#img-start{
+
+    width: 90%;
+    margin: 5% 5% 0 5%;
+}
+
+#sidebar{
+
+    width: 45%;
+    margin-left: 1%;
+    float: right;
+    margin-top: 20px;
+}
+
+#schedule{
+
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#races p{
+
+    padding: 0 25px;
+}
+
+#places-txt{
+
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 20px;
+    
+}
+
+#places{
+
+    padding-right: 2%;
+}
+
+#brazil{
+
+    width: 45%;
+    margin: 2%;
+    float: right;
+}
+
+#txt-brasil,
+#latest h3{
+
+    text-align: justify;
+    padding-left: 2%;
+}
+
+#latest{
+
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: 20px;
+}
+
+#table-content{
+
+    clear: both;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#table-content table th,
+#table-content table tr,
+#table-content table td
+{
+
+    padding: 20px;
+}
+
+#table-content table{
+    width: 50%;
+    margin: 0 25%;
+}
+
+#table-content h1{
+    margin-left: 25%;
+    font-family: Formula1-Bold;
+}
+
+aside{
+
+    margin-bottom: 40px;
+}
+
+table th,
+table td{
+
+    width: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

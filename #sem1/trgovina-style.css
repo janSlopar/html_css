@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Formula1-Regular;
+    background-color: #f4f4f4;
+    color: #333;
+    background-color: #333;
+}
+
+
+header{
+
+    font-family: Formula1-Regular;
+}
+
+header a{
+
+    margin-top: 60px;
+    margin-right: 10px;
+
+}
+
+header h1{
+
+    font-size: 30px;
+    font-family: Formula1-Bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    font-family: Formula1-Regular;
+    width: 300px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-3px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #666;
+}
+
+.product-price {
+    font-size: 1rem;
+    color: #333;
+}
+
+.product-price.old {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #FF1801;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: Formula1-Bold;
+}
+
+.add-to-cart:hover {
+    background-color: #880b00;
+    text-decoration: none;
+    color: #880b00;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+}
+
+
+@media (max-width: 866px){
+
+    header a{
+
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    header{
+
+        height: 220px;
+    }
+
+    #logo{
+
+        display: none;
+    }
+}
