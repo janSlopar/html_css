@@ -1,0 +1,124 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.ljubicasta,
+.box,
+.GR,
+.zelena,
+.narancasta,
+.crna,
+.zuta{
+
+    position: relative;
+    
+}
+
+.ljubicasta{
+
+    width: 60%;
+    background-color: blueviolet;
+    left: 20%;
+    right: 20%;
+    height: 180px;
+}
+
+h2,
+p{
+
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+
+.box{
+
+    left: 20%;
+    right: 20%;
+    width: 60%;
+}
+
+
+
+.zelena,
+.crvena,
+.narancasta,
+.plava{
+
+    width: 50%;
+    height: 270px;
+    
+}
+
+.GR{
+
+    width: 100%;
+    height: 270px;
+}
+
+.zelena{
+
+    background-color: rgb(39, 198, 39);
+    margin: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.crvena{
+
+    margin: 0;
+    background-color: red;
+    left: 50%;
+    position: absolute;
+    top: 0;
+}
+
+.narancasta{
+
+    background-color: orange;
+    left: 0;
+}
+
+.plava{
+
+    position: relative;
+    left: 50%;
+    background-color: blue;
+}
+
+.crna{
+
+    width: 50%;
+    background-color: black;
+    left: 0;
+    height: 600px;
+}
+
+.siva{
+
+    background-color: gray;
+    width: 50%;
+    right: 0;
+    left: 50%;
+    top: 0;
+    position: relative;
+    height: 600px;
+}
+
+.zuta{
+
+    background-color: rgb(224, 224, 0);
+    width: 25%;
+    left: 0;
+}
+.roza{
+
+    width: 25%;
+    right: 0;
+    background-color: pink;
+    position: absolute;
+    top: 1320px;
+}

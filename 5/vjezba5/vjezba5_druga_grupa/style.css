@@ -1,0 +1,223 @@
+div p,
+div h2{
+
+    padding: 20px;
+}
+
+div{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.ljubicasta{
+
+    background-color: purple;
+    
+}
+
+.zelena{
+
+    background-color: green;
+    
+}
+
+.crvena{
+
+    background-color: red;
+    
+}
+
+.narancasta{
+
+    background-color: orange;
+    
+}
+
+.plava{
+
+    background-color: blue;
+    
+}
+
+.crvena{
+
+    background-color: red;
+    
+}
+
+.siva{
+    background-color: grey;
+    
+}
+
+.zuta{
+
+    background-color: yellow;
+    
+}
+
+.roza{
+
+    background-color: pink;
+    
+}
+
+.crna{
+    background-color: black;
+    
+}
+
+.crna p,
+.siva p{
+
+    text-align: justify;
+}
+
+.crna img{
+
+    float: right;
+    margin: 20px;
+}
+
+.siva img{
+
+    float: left;
+    margin: 20px;
+}
+
+body{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+div h2{
+
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    /* Uski layout */
+
+    body{
+
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .box{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+    .RB{
+        width: 50%;
+        float: right;
+    }
+
+    .GO{
+        width: 50%;
+        float: left;
+    }
+    
+
+    .ljubicasta{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        clear: both;
+    }
+    
+   .crna img,
+   .siva img{
+
+        display: none;
+   }
+
+   .crna,
+   .siva{
+
+        width: 50%;
+        float: left;
+        margin-top: 0px;
+        padding-top: 0px ;
+   }
+
+   .roza,
+   .zuta{
+
+        width: 100%;
+        float: left;
+   }
+
+}
+
+
+@media(min-width: 801px){
+    /* Široki layout */
+
+    .siva img,
+    .crna img{
+
+        width: 150px;
+    }
+
+   .siva{
+
+        width: 50%;
+        float: left;
+   }
+
+   .box{
+        width: 50%;
+        float: left;
+   }
+
+   .crna{
+
+        float: right;
+        width: 50%;
+   }
+
+   .crvena{
+        float: left;
+        width: 50%;
+   }
+
+   .plava{
+        width: 50%;
+        float: left;
+   }
+
+
+   .zelena{
+        width: 50%;
+        float: left;
+   }
+
+
+
+   .narancasta{ float: left; width: 50%;}
+
+   .ljubicasta{
+        float: left;
+        width: 50%;
+   }
+
+   
+   .zuta{
+
+    float: right;
+   }
+
+   .roza{
+
+    float: right;
+   }
+
+}

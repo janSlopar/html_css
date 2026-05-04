@@ -1,0 +1,315 @@
+@media(min-width: 800px){
+
+    body{
+
+        background-color: #5FA565;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    header{
+        border: 1px solid white;
+        margin: 40px 0px 20px 0px;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+        color: white;
+        font-size: 12px;
+    }
+
+    .naslov{
+
+        float: right;
+        width: 70%;
+    }
+
+    .naslov h2,
+    .naslov p{
+
+        margin-left: 10px;
+    }
+
+    header img{
+        width: 20%;
+        margin: 25px 0px 25px 25px;
+    }
+
+    article{
+
+        margin-left: 10%;
+        margin-right: 10%;
+        border: none;
+    }
+
+    article div{
+
+        border: 1px solid white;
+    }   
+
+    .box-tesla{
+
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: none;
+    }
+
+    .rodenje-posao{
+
+        width: 50%;
+        float: left;
+        border: none;
+    }
+
+    .mladost-smrt{
+
+        width: 50%;
+        float: right;
+        border: none;
+    }
+
+    .rodenje-posao div{
+        margin: 40px 20px;
+        
+    }
+
+    .mladost-smrt div{
+
+        margin: 40px 20px;
+    }
+
+    .citat{
+
+        width: 38%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        clear: both;
+    }
+
+    .rodenje h3,
+    .mladost h3,
+    .posao h3,
+    .smrt h3{
+
+        margin: 20px 0px 20px 20px;
+    }
+
+    .rodenje p,
+    .mladost p,
+    .posao p,
+    .smrt p,
+    .citat p{
+
+        margin: 20px 20px 20px 20px;
+    }
+
+    .posao p{
+        text-align: justify;
+    }
+
+    .posao img{ 
+        width: 25%; 
+        float: right;
+        margin: 0px 10px 0px 15px;
+
+    }
+
+    
+    .slike{
+
+        border: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 40px;
+    }
+
+    .slika1{
+        width: 40%;
+    }
+
+    .slika2{
+        width: 40%;
+    }
+
+
+    .citat{
+        padding: 10px 20px;
+        margin-left: 30%;
+    }
+
+    .article-down{
+
+        margin-left: 10%;
+        margin-right: 10%;
+        border: none;
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .article-down div{
+
+        background-color: #5FA565;
+        border: 1px solid white;
+        color: white;
+        font-weight: bold;
+        font-size: 90%;
+        float: left;
+        width: 30%;
+    }
+
+    .encik,
+    .wiki{
+
+        margin-right: 3%;
+    }
+
+    .wiki{ 
+        height: 200px;
+    }
+
+    .wiki h3{
+
+        margin-top: 100px;
+    }
+
+    .mem{
+
+        height: 50px;
+    }
+
+    .article-down div h3{
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+    footer{
+        clear: both;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+@media(max-width: 799px){
+
+    body{
+        
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #3775E4;
+    }
+
+    header{
+        border: 1px solid white;
+        margin: 30px 20px 20px 20px;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+    }
+
+    header img{
+
+        width: 15%;
+        float: right;
+    }
+
+    article{
+
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .rodenje,
+    .mladost,
+    .posao,
+    .smrt,
+    .citat{
+
+        width: 37%;
+        padding: 10px 30px;
+    }
+
+    .posao img{
+        width: 150px;
+    }
+
+    .posao{
+        float: right;
+        margin-top: -280px;
+    }   
+
+    .mladost{
+
+        margin-top: 420px;
+    }
+
+    .smrt{
+        float: right;
+        margin-top: -410px;
+    }
+
+    .citat{
+        width: 92%;
+        margin: 20px 20px 20px 0px;
+    }
+
+    article div{
+
+        border: 1px solid white;
+    }
+
+
+    .slika1,
+    .slika2{
+
+        width: 45%;
+    }
+
+    .slika1{
+        margin: 0px 20px 20px 0px;
+    }
+
+    .slika2{
+        
+        margin: 0px 20px 20px 0px;
+    }
+
+    .article-down{
+
+        border: none;
+
+    }
+
+    .wiki{
+        float: right;
+        width: 350px;
+        margin-bottom: 20px;
+    }   
+
+    .enc{
+        float: left;
+        width: 450px;
+        margin-bottom: 20px;
+        height: 150px;
+    }
+    
+    .mem{
+        width: 350px;
+    }
+
+    .article-down button{
+
+        background-color: #3775E4;
+        color: white;
+        padding: 80px;
+        border: 1px solid white;
+    }
+
+    footer{
+
+        text-align: center;
+    }
+
+}

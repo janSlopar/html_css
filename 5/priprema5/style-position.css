@@ -1,0 +1,160 @@
+body{
+
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: green;
+    margin: auto;
+    color: white;
+}
+
+header,
+.rodenje,
+.mladost,
+.posao,
+.smrt,
+.citat{
+
+    border: 1px solid white;
+}
+
+header{
+
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    right: 30%;
+    top: 10px;
+}
+
+header img{
+
+    width: 20%;
+    margin: 20px;
+}
+
+.naslov{
+
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    top: 0;
+}
+
+article{
+
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    top: 220px;
+}
+
+.rodenje,
+.mladost,
+.posao,
+.smrt{
+
+    position: absolute;
+    width: 48%;
+    margin: 0 1%;
+}
+
+.rodenje,
+.posao{
+
+    left: 0;
+}
+
+.posao{
+
+    top: 280px;
+}
+
+.mladost,
+.smrt{
+
+    right: 0;
+}
+
+.smrt{
+    top: 350px;
+}
+
+article p,
+article h3{
+
+    padding: 20px;
+}
+
+.citat{
+
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    right: 30%;
+    top: 980px;
+}
+
+.slika1,
+.slika2{
+
+    position: absolute;
+    top: 1320px;
+}
+
+.slika1{
+
+    left: 5%;
+}
+
+.slika2{
+
+    right: 5%;
+}
+
+.article-down{
+
+    position: absolute;
+    top: 1700px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+}
+
+.article-down button{
+
+    width: 30%;
+    top: 0;
+    position: absolute;
+    margin: 0 1%;
+    background-color: green;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.encik{
+
+    padding: 20px;
+    left: 0;
+}
+
+.wiki{
+
+    padding: 40px;
+    left: 33%;
+}
+
+.mem{
+
+    padding: 10px;
+    left: 66%;
+}
+
+
+footer{
+
+    position: absolute;
+    top: 2150px;
+    text-align: center;
+}

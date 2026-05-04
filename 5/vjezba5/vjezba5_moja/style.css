@@ -1,0 +1,197 @@
+h2, p{
+
+    margin: 0;
+    padding: 20px;
+}
+
+.ljubicasta{
+
+    background-color: purple;
+}
+
+.zelena{
+
+    background-color: green;
+}
+
+.crvena{
+
+    background-color: red;
+}
+
+.narancasta{
+
+    background-color: orange;
+}
+
+.plava{
+
+    background-color: blue;
+}
+
+.crvena{
+
+    background-color: red;
+}
+
+.siva{
+    background-color: grey;
+}
+
+.zuta{
+
+    background-color: yellow;
+}
+
+.roza{
+
+    background-color: pink;
+}
+
+.crna{
+    background-color: black;
+}
+
+
+
+
+body{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+div h2{
+
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    
+    body{
+        background-color: white;
+    }
+
+    .ljubicasta{
+
+        width: 80%;
+        float: right;
+        margin-left: 20%;
+    }
+
+    .GR{
+
+        width: 40%;
+        float: left;
+        margin: 0 0 0 10%;
+    }
+
+    .OB{
+
+        width: 40%;
+        margin: 0 10% 0 0;
+        float: right;
+    }
+
+    .siva img,
+    .crna img{
+
+        display: none;
+    }
+
+    .siva{
+        float: left;
+        width: 50%;
+    }
+
+    .crna{
+
+        float: right;
+        width: 50%;
+    }
+
+    .zuta,
+    .roza{
+
+        width: 100%;
+        float: left;
+    }
+}
+
+
+@media(min-width: 801px){
+    /*Široki layout*/
+
+    .ljubicasta{
+        margin: 0 30%;
+    }
+
+    .box{
+        margin: 0;
+        padding: 0;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .GR{
+        float: left;
+        width: 100%;
+    }
+
+    .zelena,
+    .crvena{width: 50%;}
+
+    .zelena{ float: left;}
+    .crvena{ float: right;}
+
+    .OB{
+        width: 100%;
+    }
+
+    .narancasta,
+    .plava{
+        width: 50%;
+    }
+    
+    .narancasta{ float: left;}
+    .plava{float: right;}
+
+    .crna,
+    .siva{
+
+        float: left;
+        width: 50%;
+    }
+
+    .crna p,
+    .siva p{
+
+        text-align: justify;
+    }
+
+    .crna img{
+
+        float: right;
+        margin: 20px;
+    }
+
+    .siva img{
+
+        margin: 20px;
+        float: left;
+    }
+
+    .zuta{
+        float: left;
+        width: 25%;
+    }
+
+    .roza{
+        float: right;
+        width: 25%;
+    }
+
+   
+}

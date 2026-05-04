@@ -1,0 +1,41 @@
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.center {
+    text-align: center;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+}
+
+section.top, .bottom {
+    text-align: center;
+    background-color: lightsteelblue;
+    padding: 100px 0;
+}
+
+section.top .container {
+    max-width: 700px;
+}
+
+main {
+    padding-top: 50px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .bottom {
+        display: none;
+    }
+}
