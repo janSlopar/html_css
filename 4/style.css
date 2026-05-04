@@ -1,0 +1,114 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: rgb(187, 187, 187);
+}
+
+header,
+footer{
+
+    width: 100%;
+    background-color: black;
+    color: gray;
+}
+
+header{
+
+    position: fixed;
+    top: 0;
+}
+
+header div{
+
+    position: relative;
+    left: 15%;
+}
+
+header h1{
+
+    color: white;
+}
+
+main{
+
+    position: relative;
+    height: 1250px;
+    top: 160px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    background-color: white;
+}
+
+#pablo,
+section,
+article{
+
+    position: relative;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    top: 40px;
+}
+
+
+#bio{
+    left: 0;
+    top: 20px;
+    font-size: 20px;
+    width: 40%;
+    position: relative;
+}
+
+#knji{
+
+    position: absolute;
+    font-size: 20px;
+    top: 0;
+    right: 10%;
+    width: 40%;
+}
+
+article{
+
+    margin-top: 8%;
+}
+
+article img{
+
+    width: 65%;
+    position: relative;
+    left: 0;
+}
+
+article div{
+
+    position: absolute;
+    right: 25%;
+    bottom: 0;
+}
+
+ul li{
+
+    list-style-type: circle;
+    margin: 0;
+}
+
+ul{
+
+    margin: 0;
+}
+
+
+footer{
+
+    position: relative;
+    text-align: center;
+    top: 220px;
+}
+
+footer h3{
+
+    padding: 30px;
+}

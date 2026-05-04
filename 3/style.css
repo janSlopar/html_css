@@ -1,0 +1,82 @@
+/* Center content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, #f3f4f6, #eaeaea);
+}
+
+/* Main container width */
+main {
+    width: 80%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Links styling */
+a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:active {
+    color: orange;
+}
+
+/* Links styling for .participation */
+.participation a {
+    color: green;
+    font-style: italic;
+}
+
+.participation a:visited {
+    color: darkgreen;
+}
+
+.participation a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.participation a:active {
+    color: darkorange;
+}
+
+/* Table styling */
+#design-table {
+    width: 100%;
+    background-color: #f8f9fa;
+    color: green;
+    border-collapse: collapse;
+}
+
+#design-table th, #design-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#design-table #bottom-left {
+    background-color: lightcoral;
+}
+
+#design-table #bottom-right {
+    background-color: lightblue;
+}
+
+label {
+    font-style: italic;
+}

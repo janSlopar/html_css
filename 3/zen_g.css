@@ -1,0 +1,83 @@
+body{
+
+    background-image: url(moroccan-flower-dark.png);
+    background: linear-gradient(rgb(163, 163, 255));
+    background: linear-gradient(0.5turn,blue);
+
+    font-family: 'Times New Roman', Arial, serif;
+    color: aliceblue;
+}
+
+
+
+
+.explanation{
+
+    width: 600px;
+    margin-left: 0;
+}
+
+.participation{
+    
+    width: 600px;
+    margin-left: 630px;
+    margin-top: -240px;
+}
+
+
+
+.participation a:visited{
+
+    color: blue;
+}
+
+.participation a:active{
+
+    color: chocolate;
+}
+
+.participation a:link{
+
+    color: bisque;
+}
+
+.participation a:hover{
+
+    color: aqua;
+}
+
+#zen-benefits{
+
+    width: 600px;
+    margin-left: 0px;
+    
+}
+
+#zen-requirements{
+    width: 600px;
+    margin-left: 630px;
+    margin-top: -130px;
+    
+}
+
+#tablica{
+
+    background-color: red;
+    color: green;
+}
+
+#tablica label{
+
+    font-style: italic;
+}
+
+#dolje-lijevo{
+
+    background-color: green;
+}
+
+#dolje-desno{
+
+    background-color: blue;
+}
+

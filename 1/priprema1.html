@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laboratorijska vježba iz HTML-a">
+    <meta name="author" content="Ime Prezime">
+    <title>Ime Prezime</title>
+</head>
+<body>
+
+    <!-- Naslov i podnaslov -->
+    <h1>Ime Prezime</h1>
+    <h2>123456789</h2>
+    <p>Laboratorijska grupa: UWT01</p>
+
+    <!-- Poveznica na W3Schools s odgovarajućom slikom -->
+    <a href="https://www.w3schools.com" target="_blank">
+        <img src="slika_auta.jpg" alt="Auto" width="100" height="100">
+    </a>
+
+    <!-- Poveznica za slanje emaila -->
+    <a href="mailto:ime.prezime@tvz.hr?subject=Upit%20o%20online%20održavanju%20nastave">Pošalji email</a>
+
+    <!-- Apsolutna i relativna poveznica -->
+    <p>
+        <a href="https://www.google.com">Google (Apsolutna poveznica)</a><br>
+        <a href="#zemljopis">Zemljopis (Relativna poveznica na sekciju)</a>
+    </p>
+
+    <!-- Sekcija Zemljopis -->
+    <h3 id="zemljopis">Zemljopis</h3>
+    <p>Ovdje je sekcija o zemljopisu. Sadrži poveznice na različite gradove.</p>
+
+    <!-- Gradovi sa sidrištima -->
+    <h3 id="gradovi">Gradovi</h3>
+
+    <!-- Slike gradova s poveznicama na sidrišta -->
+    <a href="#zagreb"><img src="zagreb.jpg" alt="Zagreb" width="250"></a>
+    <a href="#zadar"><img src="zadar.jpg" alt="Zadar" width="250"></a>
+    <a href="#zurich"><img src="zurich.jpg" alt="Zurich" width="250"></a>
+    <a href="#zagora"><img src="zagora.jpg" alt="Zagora" width="250"></a>
+    <a href="#zanzibar"><img src="zanzibar.jpg" alt="Zanzibar" width="250"></a>
+    <a href="#zaragoza"><img src="zaragoza.jpg" alt="Zaragoza" width="250"></a>
+
+    <!-- Podpoglavlja za svaki grad -->
+
+    <!-- Zagreb -->
+    <h4 id="zagreb">Zagreb</h4>
+    <img src="zagreb_large.jpg" alt="Zagreb" title="Zagreb">
+    <p>Zagreb je glavni grad Hrvatske, poznat po svojoj bogatoj povijesti i kulturi...</p>
+    <iframe src="https://hr.wikipedia.org/wiki/Zagreb" width="600" height="400"></iframe>
+
+    <!-- Zadar -->
+    <h4 id="zadar">Zadar</h4>
+    <img src="zadar_large.jpg" alt="Zadar" title="Zadar">
+    <p>Zadar je povijesni grad na obali Jadranskog mora, poznat po svom Morskom orguljama...</p>
+    <iframe src="https://hr.wikipedia.org/wiki/Zadar" width="600" height="400"></iframe>
+
+    <!-- Zurich -->
+    <h4 id="zurich">Zurich</h4>
+    <img src="zurich_large.jpg" alt="Zurich" title="Zurich">
+    <p>Zurich je financijsko središte Švicarske i jedan od najbogatijih gradova u Europi...</p>
+    <iframe src="https://en.wikipedia.org/wiki/Zurich" width="600" height="400"></iframe>
+
+    <!-- Zagora -->
+    <h4 id="zagora">Zagora</h4>
+    <img src="zagora_large.jpg" alt="Zagora" title="Zagora">
+    <p>Zagora je ruralni kraj u južnom dijelu Hrvatske, poznat po vinogradima i maslinicima...</p>
+    <iframe src="https://hr.wikipedia.org/wiki/Zagora" width="600" height="400"></iframe>
+
+    <!-- Zanzibar -->
+    <h4 id="zanzibar">Zanzibar</h4>
+    <img src="zanzibar_large.jpg" alt="Zanzibar" title="Zanzibar">
+    <p>Zanzibar je poluautonomna regija Tanzanije, poznata po prekrasnim plažama i bogatoj povijesti...</p>
+    <iframe src="https://en.wikipedia.org/wiki/Zanzibar" width="600" height="400"></iframe>
+
+    <!-- Zaragoza -->
+    <h4 id="zaragoza">Zaragoza</h4>
+    <img src="zaragoza_large.jpg" alt="Zaragoza" title="Zaragoza">
+    <p>Zaragoza je glavni grad pokrajine Aragon u Španjolskoj, poznat po svojoj bogatoj povijesti...</p>
+    <iframe src="https://en.wikipedia.org/wiki/Zaragoza" width="600" height="400"></iframe>
+
+    <!-- Uređena lista za jedan grad (Zagreb) -->
+    <h4>Više informacija o Zagrebu</h4>
+    <ol>
+        <li>Glavni grad Hrvatske</li>
+        <li>Popularna turistička destinacija</li>
+        <li>Broj stanovnika: 800.000
+            <ul>
+                <li>Grad s bogatom kulturnom baštinom</li>
+                <li>Glavni politički i administrativni centar</li>
+                <li>Domaćin mnogih međunarodnih događaja</li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>

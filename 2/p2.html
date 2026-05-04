@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://www.tvz.hr/favicon.ico" type="image/x-icon">
+    <style>
+        table{
+            border-spacing: 9px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ime i prezime studenta: Jan Šlopar</h1>
+    <h2>JMBAG: 0246123378</h2>
+    <p>Grupa: html07</p>
+
+    <table border="1px solid black" width="500px">
+        <caption>
+            Gradovi
+        </caption>
+
+        <tr height="60px">
+            <td colspan="3" width="100px"></td>
+
+            <td colspan="3" width="100px"></td>
+
+            <td colspan="3" width="100px"></td>
+
+            <td colspan="3" width="100px"></td>
+
+            <td colspan="3" width="100px"></td>
+        </tr>
+
+    
+        
+
+        <tr height="20px">
+            <td colspan="6"></td>
+
+            <td colspan="9"></td>
+        </tr>
+
+        <tr height="20px">
+            <td colspan="9"></td>
+
+            <td colspan="5"></td>
+        </tr>
+        
+
+        <tr height="20px">
+            <td rowspan="2" colspan="6">
+                
+            </td>
+
+            <td colspan="9"></td>
+        </tr>
+
+        <tr height="20px">
+
+            <td colspan="9"></td>
+        </tr>
+
+        <tr height="20px">
+            <td rowspan="3" colspan="4">
+             
+            </td>
+
+            <td colspan="6"></td>
+
+            <td rowspan="3" colspan="4"></td>
+        </tr>
+
+        <tr height="20px">
+            <td colspan="6"></td>
+        </tr>
+
+        <tr height="20px">
+            <td colspan="6"></td>
+
+        </tr>
+
+
+        <tr height="20px">
+            <td colspan="6"></td>
+            <td colspan="3"></td>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr height="20px">
+            <td rowspan="2" colspan="3"></td>
+            <td rowspan="5" colspan="3"></td>
+
+            <td rowspan="2" colspan="1"></td>
+            <td rowspan="2" colspan="1"></td>
+            <td rowspan="2" colspan="1"></td>
+
+            <td rowspan="5" colspan="3"></td>
+            <td rowspan="2" colspan="3"></td>
+        </tr>
+
+        <tr height="20px">
+            
+        </tr>
+
+        <tr height="20px">
+            <td colspan="3"></td>
+            <td rowspan="3" colspan="3"></td>
+            <td colspan="3"></td>
+        </tr>
+
+        <tr height="20px">
+            <td colspan="3"></td>
+            <td colspan="3"></td>
+        </tr>
+
+        <tr height="20px">
+            <td colspan="3"></td>
+            <td colspan="3"></td>
+        </tr>
+
+
+
+        <tr height="20px" width="500px">
+            <td colspan="4"></td>
+
+            <td colspan="6"></td>
+
+            <td colspan="4"></td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h2>7. zad</h2>
+
+    <input type="radio" id="city1" name="city" value="Zagreb" />
+    <label for="city1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Zagreb_Skyline.jpg" class="city-image" alt="Zagreb" />
+    </label>
+
+    <input type="radio" id="city2" name="city" value="Split" />
+    <label for="city2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Split%2C_Croatia_%28croatian_lands%29.jpg" class="city-image" alt="Split" />
+    </label>
+
+    <input type="radio" id="city3" name="city" value="Rijeka" />
+    <label for="city3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Rijeka_Kvarner.jpg" class="city-image" alt="Rijeka" />
+    </label>
+
+    <hr>
+
+
+    <h2>8. zad</h2>
+    <h3>a)</h3>
+    <input type="checkbox" id="kino1" name="content1" value="Kino" />
+    <label for="kino1">Kino</label><br>
+    <input type="checkbox" id="klub1" name="content1" value="Klub" />
+    <label for="klub1">Klub</label><br>
+    <input type="checkbox" id="kazaliste1" name="content1" value="Kazalište" />
+    <label for="kazaliste1">Kazalište</label><br>
+    <input type="checkbox" id="klizaliste1" name="content1" value="Klizalište" />
+    <label for="klizaliste1">Klizalište</label><br>
+    <input type="checkbox" id="kuglana1" name="content1" value="Kuglana" />
+    <label for="kuglana1">Kuglana</label><br>
+
+
+    <h3>b)</h3>
+    <label for="streets">Odabir ulice:</label>
+        <select id="streets">
+        <option value="Tkalciceva">Tkalčićeva</option>
+        <option value="Ilica">Ilica</option>
+        <option value="Savska">Savska</option>
+        <option value="Miramarska">Miramarska</option>
+        <option value="Vukovar">Vukovar</option>
+    </select>
+
+
+    <h3>c)</h3>
+    <div class="email-input">
+        <label for="email">Unesite email (obavezno):</label>
+        <input type="email" id="email" name="email" required placeholder="email@example.com" />
+    </div>
+
+
+    <h3>d)</h3>
+    <div class="input-group">
+        <label for="url">Unesite URL:</label>
+        <input type="url" id="url" name="url" placeholder="https://example.com" />
+    </div>
+
+    <h3>e)</h3>
+    <div class="input-group">
+        <label for="password">Unesite lozinku (obavezno):</label>
+        <input type="password" id="password" name="password" required placeholder="Lozinka" />
+    </div>
+
+
+    <h3>f)</h3>
+    <div class="input-group">
+        <label for="textarea">Unesite tekst:</label>
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Unesite veliki broj znakova ovdje..."></textarea>
+    </div>
+
+    <h3>g)</h3>
+    <div class="input-group">
+        <label for="calendar">Odaberite datum:</label>
+        <input type="date" id="calendar" name="calendar" />
+    </div>
+     
+    <h3>Gumbi</h3>
+    <input type="reset" value="Ispočetka" />
+    <input type="submit" value="Spremi" />
+
+
+</body>
+</html>
