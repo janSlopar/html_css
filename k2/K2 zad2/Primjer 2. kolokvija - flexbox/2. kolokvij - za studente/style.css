@@ -1,0 +1,186 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    display: flex;
+    position: relative;
+    background-image: url(images/slider/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+header img{
+
+    position: absolute;
+    top: 30px;
+    background-color: rgb(0, 108, 127);
+}
+
+header nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+#ikone{
+
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    background-color: white;
+    
+    top: 0;
+    right: 0;
+}
+
+header nav div{
+
+    padding: 20px;
+    background-color: rgb(0, 108, 127);
+    color: white;
+}
+
+
+header nav div:hover{
+
+    background-color: white;
+    opacity: 0.6;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+}
+
+#reg{
+
+    height: 120px;
+    position: absolute;
+    bottom: 40px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+
+
+main{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images/about-bg.jpg);
+    color: white;
+}
+
+#gitara img{
+
+    width: 100%;
+}
+
+#gitara,
+#txt{
+
+    width: 50%;
+}
+
+
+
+article{
+
+    display: flex;
+    flex-direction: row;
+}
+
+article iframe{
+
+    width: 100%;
+}
+
+footer{
+    background-image: url(images/performar-bg.jpg);
+    padding: 0;
+}
+
+
+footer h2{
+
+    margin-left: 10%;
+    padding: 0;
+}
+
+#izvodaci{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.red1,
+.red2{
+
+    display: flex;
+    gap: 150px;
+}
+
+
+@media (max-width: 768px){
+
+    header {
+        height: 300px; /* Manja visina za header na manjim ekranima */
+    }
+
+    header img {
+        height: 50px;
+        position: relative; /* Popravljeno pozicioniranje */
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+        text-align: center; /* Bolje poravnanje za mobilne uređaje */
+    }
+
+    #txt {
+        width: 100%;
+        font-size: 20px;
+        padding: 40px 10px; /* Manji padding za uštedu prostora */
+    }
+
+    footer div,
+    footer img {
+        margin: 0;
+        padding: 0;
+    }
+
+    #izvodaci {
+        margin: 10px 0;
+        gap: 20px; /* Dodatni razmak između elemenata */
+    }
+
+    #izvodaci div {
+        flex: 1 1 100%; /* Svaka kartica zauzima ceo red */
+    }
+
+    .red1,
+    .red2{
+
+        flex-direction: column;
+        align-items: center;
+    }
+}

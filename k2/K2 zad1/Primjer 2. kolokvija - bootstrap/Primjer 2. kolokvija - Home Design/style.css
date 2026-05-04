@@ -1,0 +1,80 @@
+#poveznice-nav{
+    color: rgb(25, 175, 173);
+    text-decoration: none;
+}
+
+#kutije{
+
+    padding: 40px 0;
+}
+
+#kutije:hover{
+
+    box-shadow: 1px 1px rgb(25, 175, 173);
+    color: rgb(25, 175, 173);
+    background-color: rgb(235, 235, 235);
+}
+
+
+
+#slika-txt{
+
+    position: relative;
+    width: 100%;
+}
+
+#slika-txt #citat{
+
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    opacity: 0.65;
+    padding: 15px;
+    color: white;
+    bottom: 0;
+}
+
+
+button{
+
+    background-color: rgb(25, 175, 173);
+    border: none;
+    color: white;
+}
+
+#wlcm{
+
+    color: rgb(25, 175, 173);
+}
+
+#facebook{
+    padding: 30px;
+    border-radius: 50px;
+    background-color: rgb(15, 15, 120);
+    color: white;
+    text-align: center;
+}
+
+#google{
+    padding: 30px;
+    border-radius: 50px;
+    background-color: rgb(247, 73, 73);
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    #praznine,
+    #kutije{
+
+        display: none;
+    }
+
+
+    #facebook,
+    #google{
+
+        padding: 30px;
+    }
+}
